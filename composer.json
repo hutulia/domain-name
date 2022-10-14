@@ -1,0 +1,11 @@
+{
+  "name": "hutulia/domain-name",
+  "description": "Work with abstract domain name by php",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Hutulia\\DomainName\\": "src/"
+    }
+  }
+}
