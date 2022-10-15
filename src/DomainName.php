@@ -70,6 +70,7 @@ class DomainName
 
     /**
      * @param int $level
+     * @throws \Exception
      */
     public function getLevel($level)
     {
@@ -82,6 +83,8 @@ class DomainName
 
         return $levels[$index];
     }
+
+    //TODO: puny https://stackoverflow.com/questions/37209239/how-to-check-if-a-domain-is-punycode-or-not
 
     /**
      * @param string $domainName
