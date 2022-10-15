@@ -1,6 +1,6 @@
 {
   "name": "hutulia/domain-name",
-  "description": "Work with abstract domain name by php",
+  "description": "Work with domain name as with string: getTld(), getSld(), isPuny(), toPuny(), isIdn() etc..",
   "type": "library",
   "license": "MIT",
   "autoload": {
